@@ -1,14 +1,14 @@
 <template>
     <div class="container">
         <br>
-        <h1 class="text-center">Todos App</h1>
+        <h1 class="text-center">Todo App by Akash</h1>
         <br><br>
         <form @submit="addTodo">
         <div class="form-group">
-            <input required type="text" v-model="title" placeholder="title" name="title" id="" class="form-control">
+            <input required type="text" v-model="title" placeholder="Title" name="title" id="" class="form-control">
         </div>
         <div class="form-group">
-            <button class="btn btn-block btn-danger">
+            <button class="btn btn-block btn-success">
                 Add Todo
             </button>
         </div>
